@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 30px;
+}
+.navbar .leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navbar .rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navbar p{
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+
+.container{
+    width: 100%;
+    /* height: 100%; */
+    background:#f3f3f3;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.image-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.image-search{
+    width: 20px;
+    height: 20px;
+}
+
+.main-body{
+    margin: 0;
+    display: flex;
+   
+}
+.main-img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.main-body1stimage{
+  background-image: url(image/1st.png);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.visit-button{
+    margin-left: 15pc;
+    margin-top: 17pc;
+
+    
+    color: #fff;
+    font-size: 18px;
+    width: 230px;
+    height: 45px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    cursor: pointer;
+    background:  #191919;
+    border-radius: 15px;
+    
+}
+.visit-button:hover{
+background: #474747;
+}
+
+
+.photo-gallery{
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.section1{
+    background-image: url(image/1-4.png);
+    height: 70vh;
+    width: 50%;
+    background-size: cover;
+    object-fit: fill;
+    background-position: center;
+    
+}
+.section2{
+    height: 70vh;
+    width: 50%;
+    background-image: url(image/2-4.png);
+    background-size: cover;
+    background-position: center;
+}
+.section3{
+    height: 70vh;
+    width: 50%;
+    background-image: url(image/3-4.png);
+    background-size: cover;
+    background-position: center;
+}
+.section4{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.part1{
+    height: 70vh;
+    width: 50%;
+    background-image: url(image/part1.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.part2{
+    height: 70vh;
+    width: 50%;
+    background-image: url(image/part2.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+}
+.photo-gallery2{
+    display: flex;
+    width: 94%;
+    
+    padding: 45px;
+    justify-content: space-between;
+}  
+.section1-2{
+background: white;
+width: 50%;
+height: 70vh;
+
+  
+} 
+.imagevideo{
+    width: 680px;
+    height: 470px;
+    
+    margin: 17px;
+}
+
+    
+
+.section2-2{
+background: #fff;
+width: 50%;
+}
+.section1learn{
+    
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.section1positon{
+    position: absolute;
+    bottom: -141px;
+    left: 335px;
+}
+h1{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    text-align: center;
+    font-size: 35px;
+   margin-top: 65px;
+
+}
+.h1extra{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    text-align: center;
+    font-size: 35px;
+   margin-top: 13px;
+}
+.whiteh1{
+color: #fff;
+}
+.blackh1{
+color: black;
+}
+p{
+    text-align: center;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    font-size: 18px;
+
+}
+.pblack{
+color: black;
+}
+.pwhite{
+color: white;
+}
+.h3share{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    color: orange;
+    text-align: center;
+    margin-top: 125px;
+}
+.tag1{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 270px;
+}
+.tag2{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 13px;
+}
+.tag3{
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 320px;
+}
+.tag4{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 133px;
+}
+.tag5{
+    text-decoration: none;
+    font-size: 18px;
+    color:orange;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 127px;
+}
+.tag6{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-left: 324px;
+}
+
+.photo-gallery3{
+    display: flex;
+    width: 94%;
+    padding: 45px;
+    justify-content: space-between;
+    gap: 15px;
+} 
+.section1-3{
+    background: #fff;
+    width: 50%;
+    height: 505;
+}
+.section2-3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    gap: 15px;
+    
+    justify-content: space-between;
+    
+    }
+.part1-3{
+    width: 100%;
+    height: 50%;
+    background: #fff;
+    
+}
+.part2-3{
+    width: 100%;
+    height: 50%;
+    background: #fff;
+}
+.service-exchage1{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 200px;
+    
+}
+.service-exchage2{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    text-decoration: none;
+    
+    font-size: 19px;
+    text-align: center;
+    margin-left: 71px;
+
+}
+.main-mi{
+    width: 100%;
+    background: white;
+    margin-top: 60px;
+    height: 150px;
+    display: flex;
+}
+.miew{
+width: 33.3%;
+background:white;
+display: flex;
+flex-direction: column;
+}
+.misp{
+    width: 33.3%;
+    background: white;
+    ;
+    display: flex;
+flex-direction: column;
+}
+.micp{
+    width: 33.3%;
+    background: white;
+    
+    display: flex;
+flex-direction: column;
+}
+.miwiA{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    margin-top: 28px;
+
+}
+.imagemiwi{
+    
+    width: 55px;
+    margin-left: 100px;
+}
+.footer{
+    width: 100%;
+    height: 90vh;
+    background:black;
+    padding: 30px;
+    display: flex;
+   
+    
+}
+.inner-footer{
+    display: flex;
+    background: bisque;
+    width: 65%;
+    height: 37pc;
+    margin-top: 60px;
+    margin-right: 10px;
+    
+}
+h3{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.atag{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    color: #8c8c8c;
+    
+    
+}
+.atag:hover{
+    color: white;
+    
+}
+.footer-note1{
+    width: 25%;
+    background:black;
+    
+}
+
+.footer-note2{
+    width: 25%;
+    background:black;
+}
+.footer-note3{
+    width: 25%;
+    background: black;
+    
+
+}
+.footer-note4{
+    width: 25%;
+    background: black;
+}
+.inner-footer2{
+    background:black;
+    width: 30%;
+    height: 37pc;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.icons{
+    width: 50%;
+    height: 12%;
+    background: black;
+    display: flex;
+    
+}
+.fb{
+    width: 33.3%;
+    height: 100%;
+    background:black;
+    
+}
+.twitter{
+    width: 33.3%;
+    height: 100%;
+    background: black;
+}
+.insta{
+    width: 33.3%;
+    height: 100%;
+    background: black;
+}
+.fb-icon{
+
+width: 40px;
+    
+    height: 40px;
+    margin-left: 15px;
+
+}
+.twitter-icon{
+    width: 40px;
+    
+    height: 40px;
+    margin-left: 15px;
+}
+.insta-icon{
+    width: 40px;
+    
+    height: 40px;
+    margin-left: 15px;
+}
+.eamil-button{
+    width: 413px;
+    height: 58px;
+    border-radius: 15px;
+    font-size: 17px;
+    color:black;
+    background: black;
+    border-color: #fff;
+}
+.playstore-bar{
+    
+    width: 91%;
+    height: 44%;
+    margin-top: 41px;
+    background:#191919;
+    border-color: #fff;
+    border: 1px solid var(--brand-grey-30);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+}
+.imageQR{
+   
+    width: 90px;
+    height: 105px;
+}
+
+.upper{
+    
+    width: 88%;
+    height: 53%;
+    background: #191919;
+    margin-left: 23px;
+    display: flex;
+}
+.pline{
+font-size: 16px;
+color: #fff;
+}
+.middle-line{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin-top: 35px;
+}
+.bottom{
+    display: flex;
+    width: 354px;
+    height: 35px;
+    background:#191919 ;
+    margin-top: 23px;
+}
+.icon-play{
+   
+    width: 88px;
+    height: 37px;
+}
+.pwrite{
+    color: #fff;
+    margin-top: 7px;
+}
+.inner-footerlast{
+    background:black;
+    
+    width: 92%;
+    height: 5pc;
+    padding: 60px;
+}
+.lastfooter{
+    background: white;
+    width: 100%;
+    height: 0.1px;
+}
+.footer-legal{
+    
+    background: black;
+    width: 100%;
+    height: 40%;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.footer-copy{
+    background: black;
+    width: 30%;
+    height: 100%;
+}
+.footer-policy{
+    background:black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+    gap: 495px;
+
+    
+}
+.copy{
+    font-size: 16px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    color: white;
+}
+
+.cookie{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.policy{
+    background:black;
+    width: 30%;
+    height: 100%;
+}
+.india{
+    background: black;
+    width: 19%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.india-cookie{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+
+}
+.glob{
+    background:black;
+    width: 50%;
+    height: 100%;
+    
+}
+.globimg{
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.tag1:hover{
+    text-decoration: underline;
+
+}
+.tag2:hover{
+    text-decoration: underline;
+
+}
+.tag3:hover{
+    text-decoration: underline;
+
+}
+.tag4:hover{
+    text-decoration: underline;
+
+}
+.tag5:hover{
+    text-decoration: underline;
+
+}
+.tag6:hover{
+    text-decoration: underline;
+
+}
+.miwiA:hover{
+    
+        text-decoration: underline;
+    
+    
+}
+.section1learn:hover{
+    text-decoration: underline;
+}
+.service-exchage1:hover{
+    text-decoration: underline;
+}
+.service-exchage2:hover{
+    text-decoration: underline;
+}
